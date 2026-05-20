@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 model=ChatGoogleGenerativeAI(model="gemini-2.5-flash")
-propmt="What us the capital city of USA?"
+propmt="Do you remember my name?"
 
 result = model.invoke(propmt)
 

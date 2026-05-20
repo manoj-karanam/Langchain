@@ -30,5 +30,5 @@ template=PromptTemplate(
 
 chain=template | model | parser
 
-result=chain.invoke({"place":"Tamil Nadu"})
+result=chain.invoke({"place":"Andhra Pradesh"})
 print(result)
