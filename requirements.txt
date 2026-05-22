@@ -8,3 +8,8 @@ pydantic
 langchain_huggingface
 sentence-transformers
 faiss-cpu
+pypdf
+langchain_chroma
+wikipedia
+youtube_transcript_api
+langchain.tools
